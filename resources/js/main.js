@@ -19,7 +19,7 @@ $(document).ready(function(){
     }
 
     else if(howfar - scrolltop > 50 ){
-        $('.navbar').animate({top: '0px' + heightnav},150);
+        $('.navbar').animate({top: '0px'},150);
         howfar = scrolltop;
     }
   });
