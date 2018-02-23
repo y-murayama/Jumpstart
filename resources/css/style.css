@@ -55,37 +55,29 @@ h4{
 
 /*Jumbotron*/
 .jumbotron{
+  height:44rem;
   color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 11.85rem 0 ;
 }
 .jumbotron.jumbotron-bike{
   background-image: url('../images/jumbotron-bike.jpg');
-  background-position: center;
-  background-size: cover;
-  padding: 11.85rem 0 ;
-
 }
 .jumbotron.jumbotron-beer{
   background-image: url('../images/jumbotron-beer.jpg');
-  background-position: center;
-  background-size: cover;
-  padding: 11.85rem 0 ;
 
 }.jumbotron.jumbotron-flowers{
   background-image: url('../images/jumbotron-flowers.jpg');
-  background-position: center;
-  background-size: cover;
-  padding: 11.85rem 0 ;
 
 }.jumbotron.jumbotron-duffel{
   background-image: url('../images/jumbotron-duffel.jpg');
-  background-position: center;
-  background-size: cover;
-  padding: 11.85rem 0 ;
-
 }
-.jumbotron .container-fluid{
+.jumbotron .container-fluid p{
   max-width:51.3rem;
-  text-align: center;
+  margin:auto;
 }
 .jumbotron h2{
   font-family: 'Monoton';
